@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Yuefu Jiang Assignment 2</title>
+  <meta content="Author: Yuefu Jiang">
+  
+
+  <link rel="stylesheet" href="./css/As2.css">
+  
+
+ 
+</head>
+
+<body>
+  
+  <h2 id="header">The Overwatch Form</h2>
+
+  <form id="form" name="form" class="class1">
+  	<fieldset id="fs1" name="fs1">
+  	  <legend>Basic Information</legend>
+  	  Name: <input type="text" name="name" id="theName" value=""><br>
+  	  Age: <input type="number" name="age" id="theAge" min="16" max="100" value=""><br>
+  	</fieldset><br>
+
+  	<fieldset id="fs2">
+  	  <legend>Randon Question Part I</legend>
+  	  Your Favorite Color: <input type="color" name="colorpicker"><br>
+  	  Your Favorite Season: 
+  	  <select name="season" id="theSeason">
+  		<option value="spring">Spring</option>
+  		<option value="summer">Summer</option>
+  		<option value="fall">Fall</option>
+  		<option value="winter">Winter</option>
+	  </select><br>
+	  Your Favorite time of the day:
+	  <select name="timeOfDay" id="theTime">
+	  	<option value="Morning">Morning</option>
+	  	<option value="Afternoon">Afternoon</option>
+	  	<option value="Evening">Evening</option>
+	  	<option value="High Noon">High Noon</option>
+	  </select><br>
+  	</fieldset><br>
+
+  	<fieldset id="fs3">
+  	  <legend>Random Question Part II</legend>
+  	  Which person is your favorite?<br>
+  	  <input type="radio" name="star" id="theStar" value="Chandler Bing" checked> Chandler Bing<br>
+  	  <input type="radio" name="star" id="theStar" value="Sheldon Cooper"> Sheldon Cooper<br>
+  	  <input type="radio" name="star" id="theStar" value="Jake Peralta"> Jake Peralta<br>
+  	  Which candidate are you voting?<br>
+  	  <input type="radio" name="candidate" id="theCandidate" value="hilary" checked> Hilary Cliton<br>
+  	  <input type="radio" name="candidate" id="theCandidate" value="trump"> Donald Trump<br>
+  	  <input type="radio" name="candidate" id="theCandidate" value="bailed"> Whatever I'm moving to Canada :)<br>
+  	</fieldset>
+  	
+  	<input type="button" value="Submit" id="button" onclick="submission()">
+
+  	<fieldset id="fs4">
+  	<legend>Result!</legend>
+  	*Drum Roll*<br>
+  	Who are you gonna be?
+  	</fieldset>
+  </form>
+
+  <script src="./js/script.js" type="text/javascript"></script>
+  
+</body>
+</html>
