@@ -1,7 +1,7 @@
 html, body{
     margin:0; padding:0; border:0;
     font-size: 100%;
-    background:#e0ebeb;
+    background:#ffb87f;
     width:100%;
 }
 #header{
@@ -10,12 +10,16 @@ html, body{
 #intro{
     font-family:sans-serif;
 }
-#intro2{
-    font-family:sans-serif;
-}
+#icon{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left:1000px;
+    }
 #form{
+    margin-top: -500px;
     width:70%;
-    background:#CCCCCC;
+    background:#827b76;
     font-family:sans-serif;
 }
 #fs1{
@@ -46,7 +50,7 @@ html, body{
     font-family:sans-serif;
 }
 #button{
-    background-color: #669999;
+    background-color: #ff790c;
     border: none;
     color: white;
     padding: 15px 32px;
