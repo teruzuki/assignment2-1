@@ -7,6 +7,12 @@ html, body{
 #header{
     font-family:sans-serif;
 }
+#intro{
+    font-family:sans-serif;
+}
+#intro2{
+    font-family:sans-serif;
+}
 #form{
     width:70%;
     background:#CCCCCC;
