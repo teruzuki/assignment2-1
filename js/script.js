@@ -1,16 +1,9 @@
-function formValidation (event) {
+function formValidation () {
 
 	//window.alert("hello!");
     
-    var name = document.getElementsById("theName").value;
-    //var age = document.getElementsById("theAge").value;
-    /*
-    var season = document.getElementsById('season').value;
-    var time = document.getElementsById('timeOfDay').value;
-    var star = document.getElementsById('star').value;
-    var candidate = document.getElementsById('candidate').value;
-    */
-    window.alert("hello");
+    var name = document.getElementById("theName").value;
+    var age = document.getElementById("theAge").value;
 
     if (name == "")
     {
@@ -32,6 +25,49 @@ function formValidation (event) {
 function formAction() 
 {
 	window.alert("hello again!");
+
+    var season = document.getElementById("theSeason").value;
+    var time = document.getElementById("theTime").value;
+    
+
+    var score = season * time;
+    
+    
+    var star;
+    if (document.getElementById("theStar1").checked)
+    {
+        star = document.getElementById("theStar1").value;
+    }
+    else if (document.getElementById("theStar2").checked)
+    {
+        star = document.getElementById("theStar2").value;
+    }
+    else if (document.getElementById("theStar3").checked)
+    {
+        star = document.getElementById("theStar3").value;
+    }
+
+    var candidate;
+    if (document.getElementById("theCandidate1").checked)
+    {
+        candidate = document.getElementById("theCandidate1").value;
+    }
+    else if (document.getElementById("theCandidate2").checked)
+    {
+        candidate = document.getElementById("theCandidate2").value;
+    }
+    else if (document.getElementById("theCandidate").checked)
+    {
+        candidate = document.getElementById("theCandidate1").value;
+    }
+    var score2 = star * candidate;
+
+    var finalScore = score2*score;
+
+    alert(finalScore);
+    
+
+
 }
 
 function submission() {
