@@ -5,15 +5,15 @@ html, body{
     width:100%;
 }
 #header{
-	font-family:sans-serif;
+    font-family:sans-serif;
 }
 #form{
-	width:70%;
+    width:70%;
     background:#CCCCCC;
     font-family:sans-serif;
 }
 #fs1{
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 200px;
     margin-left: 10px;
@@ -22,25 +22,25 @@ html, body{
     font-family:sans-serif;
 }
 #fs2{
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 200px;
     margin-left: 10px;
-	width:90%;
+    width:90%;
     background:#FFFFFF;
     font-family:sans-serif;
 }
 #fs3{
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 200px;
     margin-left: 10px;
-	width:90%;
+    width:90%;
     background:#FFFFFF;
     font-family:sans-serif;
 }
 #button{
-	background-color: #669999;
+    background-color: #669999;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -52,11 +52,11 @@ html, body{
     cursor: pointer;
 }
 #fs4{
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 200px;
     margin-left: 10px;
-	width:90%;
+    width:90%;
     background:#FFFFFF;
     font-family:sans-serif;
 }
